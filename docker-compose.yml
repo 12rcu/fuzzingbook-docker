@@ -2,5 +2,8 @@ version: '3'
 services:
   jupyter:
     build: .
+    privileged: true
     ports:
        - 8888:8888
+    volumes:
+      - ./fuzzingbook:/home/jovyan/fuzzingbook

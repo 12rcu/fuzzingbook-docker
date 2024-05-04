@@ -1,0 +1,3 @@
+[submodule "fuzzingbook"]
+	path = fuzzingbook
+	url = https://github.com/uds-se/fuzzingbook.git

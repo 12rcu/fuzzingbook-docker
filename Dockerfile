@@ -11,7 +11,4 @@ RUN apt-get update && \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Clone the repository and install requirements
-RUN git clone https://github.com/uds-se/fuzzingbook.git && \
-    cd fuzzingbook && \
-    pip install -r requirements.txt
+ADD ./install.sh ./install.sh
