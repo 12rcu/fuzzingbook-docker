@@ -19,7 +19,7 @@ docker compose up
 #### Step 3
 Install pip dependencies (while the container is running)
 ```sh
-docker exec -u root -t -i fuzzingbook-docker-jupyter-1 sh -c "/home/jovyan/install.sh"
+docker exec -u root -t -i fuzzingbook sh -c "/home/jovyan/install.sh"
 ```
 
 ## How this image is built
